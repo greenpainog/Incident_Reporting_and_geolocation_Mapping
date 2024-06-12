@@ -64,7 +64,7 @@ if (isset($_POST["submit"])) {
     $longitude = null;
 
     if ($spacy_woi) {
-        $apiKey = 'AIzaSyCkXwhu864y_F4GSYBo0XyanJzHjI-S5iM';
+        $apiKey = 'REPLACE_WITH_YOUR_API_KEY';
         $coords = getCoordinates($spacy_woi, $apiKey);
         if ($coords) {
             $latitude = $coords['latitude'];
