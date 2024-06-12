@@ -1,0 +1,32 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Recently Updated Entries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .data {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        .data th, .data td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .data th {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Recently Updated Entries</h1>
+        {% for table in tables %}
+            {{ table | safe }}
+        {% endfor %}
+    </div>
+</body>
+</html>
