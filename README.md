@@ -2,11 +2,16 @@
 
 ## Overview
 The Emergency Response Event Mapping System is a web-based platform developed to assist in tracking and managing emergency events handled by police and fire departments. The system includes AI-driven text and category extraction for automated event reporting, improving the accuracy and speed of incident classification. Users can log in, view events, and admins have additional privileges to manage the events database.
+![image](https://github.com/user-attachments/assets/d3852a37-f7b9-441c-a5c5-817749652ff2)
+
 
 ## Features
 - **AI-Powered Event Reporting:** Automatic text and category extraction using OpenAI's ChatGPT API to categorize events reported by users.
 - **User Authentication:** Secure user login and session management to access the system.
 - **Event Mapping:** Visual representation of event locations across Greece, using the Google Maps API.
+  
+  ![image](https://github.com/user-attachments/assets/4c9f1800-ed69-491d-86a2-b05375538b01)
+
 - **Department Selection:** Users can choose between police and fire department events.
 - **Admin Control:** Admins have the ability to add, update, and delete events.
 - **Mobile Optimization:** Responsive design to support both desktop and mobile views.
